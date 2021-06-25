@@ -22,4 +22,20 @@ export default class S1 extends React.Component(){
             'Exist': 'true'
         })
     }
+
+    goToNextScreen = (btnColor) => {
+        this.props.navigation.navigate('S2', { color: btnColor })
+    }
+
+    render(){
+        return(
+            <View>
+                <Text>Student 1</Text>
+                <Text>Student 2</Text>
+                <Text>Student 3</Text>
+                <Text>Student 4</Text>
+            </View>
+        )
+    }
+    
 }
