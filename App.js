@@ -18,4 +18,4 @@ var AppNavigtor = createSwitchNavigator({
   screen2: SummaryScreen,
 });
 
-const AppcContainer = createAppContainer(AppNavigtor)
+const AppcContainer = createAppContainer(AppNavigtor);
